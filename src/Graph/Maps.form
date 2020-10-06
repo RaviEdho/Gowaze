@@ -257,11 +257,13 @@
         </Component>
         <Component class="javax.swing.JLabel" name="lblKe">
           <Properties>
-            <Property name="text" type="java.lang.String" value="-&gt;"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Assets/To-Arrow.png"/>
+            </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="210" y="40" width="-1" height="-1"/>
+              <AbsoluteConstraints x="205" y="30" width="32" height="32"/>
             </Constraint>
           </Constraints>
         </Component>

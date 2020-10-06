@@ -253,8 +253,8 @@ public class Maps extends javax.swing.JFrame {
         shLblPintuTolAkhir.setOpaque(true);
         panelInfo.add(shLblPintuTolAkhir, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 25, 160, 50));
 
-        lblKe.setText("->");
-        panelInfo.add(lblKe, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, -1, -1));
+        lblKe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assets/To-Arrow.png"))); // NOI18N
+        panelInfo.add(lblKe, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 30, 32, 32));
 
         lblJarak.setBackground(new java.awt.Color(240, 215, 97));
         lblJarak.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N

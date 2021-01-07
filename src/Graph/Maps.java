@@ -157,7 +157,7 @@ public class Maps extends javax.swing.JFrame {
         });
         panelMenu.add(btnGeserMaps, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 70, 70));
 
-        shBtnGeserMaps.setBackground(new java.awt.Color(151, 136, 61));
+        shBtnGeserMaps.setBackground(new java.awt.Color(0, 0, 0));
         shBtnGeserMaps.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         shBtnGeserMaps.setOpaque(true);
         panelMenu.add(shBtnGeserMaps, new org.netbeans.lib.awtextra.AbsoluteConstraints(105, 5, 70, 70));
@@ -189,7 +189,7 @@ public class Maps extends javax.swing.JFrame {
         });
         panelMenu.add(btnBonus, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 160, 50));
 
-        shBtnBonus.setBackground(new java.awt.Color(151, 136, 61));
+        shBtnBonus.setBackground(new java.awt.Color(0, 0, 0));
         shBtnBonus.setOpaque(true);
         panelMenu.add(shBtnBonus, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 95, 160, 50));
 
@@ -220,7 +220,7 @@ public class Maps extends javax.swing.JFrame {
         });
         panelMenu.add(btnAbout, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 160, 50));
 
-        shBtnAbout.setBackground(new java.awt.Color(151, 136, 61));
+        shBtnAbout.setBackground(new java.awt.Color(0, 0, 0));
         shBtnAbout.setOpaque(true);
         panelMenu.add(shBtnAbout, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 165, 160, 50));
 
@@ -678,6 +678,7 @@ public class Maps extends javax.swing.JFrame {
         btnExit.setBackground(new java.awt.Color(240, 215, 97));
         btnExit.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
         btnExit.setText("KELUAR");
+        btnExit.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 3, true));
         btnExit.setContentAreaFilled(false);
         btnExit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnExit.setOpaque(true);
@@ -702,7 +703,7 @@ public class Maps extends javax.swing.JFrame {
         });
         jPanel3.add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 10, 140, 50));
 
-        shBtnExit.setBackground(new java.awt.Color(151, 136, 61));
+        shBtnExit.setBackground(new java.awt.Color(0, 0, 0));
         shBtnExit.setOpaque(true);
         jPanel3.add(shBtnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(745, 15, 140, 50));
 

@@ -1213,7 +1213,8 @@ public class GrafBonus extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSisiTutorialMouseReleased
 
     private void btnSisiTutorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSisiTutorialActionPerformed
-        // TODO add your handling code here:
+        CardLayout menu = (CardLayout) panelBody.getLayout();
+        menu.show(panelBody, "sisi");
     }//GEN-LAST:event_btnSisiTutorialActionPerformed
 
     private void btnJarakTutorialMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnJarakTutorialMouseEntered
@@ -1241,7 +1242,8 @@ public class GrafBonus extends javax.swing.JFrame {
     }//GEN-LAST:event_btnJarakTutorialMouseReleased
 
     private void btnJarakTutorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJarakTutorialActionPerformed
-        // TODO add your handling code here:
+        CardLayout menu = (CardLayout) panelBody.getLayout();
+        menu.show(panelBody, "jarak");
     }//GEN-LAST:event_btnJarakTutorialActionPerformed
 
     private void btnTambahSisiMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnTambahSisiMouseEntered
